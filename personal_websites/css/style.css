@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin-top: 0;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+}
+.middle-container{
+    background-color: red;
+}
+.bottom-container{
+    background-color: yellow;
+}
+
+.top-container,.bottom-container,.middle-container{
+    width: 200px;
+    height: 200px;
+}
