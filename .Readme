@@ -1,0 +1,30 @@
+Resources:-
+Icons:- https://www.flaticon.com/
+Animated img :- https://giphy.com/
+CSS Button Generator :- https://css3buttongenerator.com/https://css3buttongenerator.com/
+
+Css Notes:-
+
+Common Block Elemenets in CSS
+    - <p>, Headers(<h1> to <h6>), divisions(<div>), Lists and list items(<ol>, <ul>, and <li>), Forms(<form>)
+
+Display properties:-
+    - Block, Inline, Inline-Block, None
+    - You can also use visiblility:hidden instead of display:None
+        - Diff between visiblility and display(None):-
+            - Display removes the place of the element as well
+            - visiblility only hides the element but the place taken by the element is not removed.
+
+Css Positioning:-
+    - Content is Everything.
+    - Order Comes from Code.
+    - Children sit on parents.
+ - Position
+   - Static, Relative, Absolute, Fixed
+ - Coordinates
+   - Top, Bottom, Left, Right
+
+- We can Center the text by using text-align property or through margin
+- font-size 16px = 100% = 1em
+- rem in font-size means ignore the parent font-size and use child font-size e.g(font-size: 2rem)
+
