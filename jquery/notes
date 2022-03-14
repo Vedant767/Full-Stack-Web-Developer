@@ -1,0 +1,48 @@
+REFERENCES:-
+https://www.w3schools.com/jquery/jquery_ref_effects.asp
+
+Select elements in jQuery:-
+- $("h1")
+- jQuery("h1")
+
+To retrive value:-
+- $("h1").css("font-size")
+eg:- size = $("h1").css("font-size")
+
+To add a class:-
+- $("h1").addClass("big-title")
+To remove a class:-
+- $("h1").removeClass("big-title")
+
+Manipulate the text:-
+- $("h1").text("big")
+- $("h1").html("<em>big</em>")
+
+Get and Set attributes:-
+Get - $("img").attr("src")
+Set - $("a").attr("href", "www.google.com")
+
+Adding events:-
+$("h1").on("mouseover", function(){
+    console.log("Mouse");
+})
+
+Adding and removing elements:-
+- before()
+- after()
+- prepend()
+- append()
+
+eg:- $("h1").before("<button>New</button>")
+
+Manipulate the elements:-
+- hide()
+- show()
+- toggle()
+- fadeIn()
+- fadeUp()
+- fadeToggle()
+- slideUp()
+- slideDown()
+- slideToggle()
+- animate()

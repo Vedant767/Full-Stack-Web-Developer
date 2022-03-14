@@ -1,0 +1,23 @@
+DOM REFERENCE:- https://www.w3schools.com/js/js_htmldom.asp
+EVENT REFERENCE:- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+
+check more:-
+-   Callback functions
+
+
+To add, remove, toggle a class to the element using DOM use:-
+- .classList.add()
+- .classList.remove()
+- .classList.toggle()
+eg:- document.querySelector("h1").classList.toggle("huge")
+
+To change the element text:-
+- .textContent
+- .innerHtml
+eg:- document.getElementById("title").innerHtml = "Hello"
+
+To manipulate the attributes:-
+- .attributes()
+- .setAttributes()
+- .getAttributes()
+eg:- document.querySelector("a").setAttribute("href","www.google.com")
